@@ -11,6 +11,7 @@ router.get('/', function(req, res, next) {
 
 router.put('/', function(req, res, next) {
     data = req.body.data;
+    res.status(200);
 });
 
 module.exports = router;
